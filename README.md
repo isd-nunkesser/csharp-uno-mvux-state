@@ -23,3 +23,25 @@ Students should compare a state-first C# approach with Flutter/SwiftUI/Compose p
 ## Suggested next step
 
 Add a small Uno MVUX sample app and reuse the same counter/todo domain to enable side-by-side comparison.
+
+## Run locally
+
+1. Change into the app folder.
+2. Restore dependencies.
+3. Build the solution.
+
+```bash
+cd app
+dotnet restore
+dotnet build UnoMvuxStateDemo.sln
+```
+
+## Shared counter state example
+
+This repository uses the same teaching example as the sibling stacks:
+
+- `src/CounterState.cs`
+- `src/CounterAction.cs`
+- `src/CounterReducer.cs`
+
+The goal is a side-by-side comparison of identical state and reducer logic across MAUI MVVM, MAUI Reactor-style MVU, and Uno MVUX-oriented demos.

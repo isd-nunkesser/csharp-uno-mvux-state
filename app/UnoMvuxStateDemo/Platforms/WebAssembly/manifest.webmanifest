@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "UnoMvuxStateDemo",
+  "display": "standalone",
+  "name": "UnoMvuxStateDemo",
+  "short_name": "UnoMvuxStateDemo",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
